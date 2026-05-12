@@ -8,17 +8,28 @@ __pycache__/
 
 # Local/runtime outputs
 data/
-Data/
+Data/*
+!Data/
+!Data/README.md
+logs/
 tmp/
 
-# Model checkpoints and generated artifacts
-model/
+# Model checkpoints are generated locally, but keep the checkpoint directory.
+model/*
+!model/
+!model/marl_ddpg/
+model/marl_ddpg/*
+!model/marl_ddpg/README.md
+
+# Generated artifacts
 *.pt
 *.pth
 *.ckpt
 *.npy
 *.npz
 *.mat
+!sem_table.mat
+!VQA_table.mat
 *.png
 *.jpg
 *.jpeg
