@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Local/runtime outputs
+data/
+Data/
+tmp/
+
+# Model checkpoints and generated artifacts
+model/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.mat
+*.png
+*.jpg
+*.jpeg
+*.gif
